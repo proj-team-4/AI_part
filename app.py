@@ -14,5 +14,6 @@ def get_questions():
     result = get_similar_questions(topic,num_of_questions)
     return jsonify(result)
 
+
 if __name__ == '__main__':
     app.run(debug=True)
